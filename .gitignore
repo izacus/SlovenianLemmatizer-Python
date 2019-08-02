@@ -1,0 +1,14 @@
+.idea
+dist
+MANIFEST
+
+# IDEA
+target
+
+# Python
+*.pyc
+build
+Lemmagen.egg-info
+
+# VSCode
+.vscode/
