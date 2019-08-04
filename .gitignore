@@ -7,8 +7,14 @@ target
 
 # Python
 *.pyc
-build
+build/
+dist/
 Lemmagen.egg-info
+*.so
+
+# Cython generated
+lemmagen/libLemmagen.c
+lemmagen/libLemmagen.so
 
 # VSCode
 .vscode/

@@ -2,9 +2,9 @@ from setuptools import setup, Extension
 import os
 import platform
 
-root_dir = os.path.dirname(os.path.dirname(os.path.dirname(os.path.realpath(__file__))))
-src_dir = os.path.join(root_dir, "src")
-include_dir = os.path.join(root_dir, "include")
+root_dir = os.path.dirname(os.path.realpath(__file__))
+src_dir = os.path.join(root_dir, "lemmagen/lib/src")
+include_dir = os.path.join(root_dir, "lemmagen/lib/include")
 
 # Setup compilation arguments for native code
 compile_args = []
@@ -29,7 +29,7 @@ lib = Extension('lemmagen.libLemmagen',
 setup(name="Lemmagen",
       version="1.3.1",
       description="LemmaGen lemmatizer for Python supporing Slovene, Serbian, Romanian, Estonian, Bulgarian and other languages",
-      package_data={'lemmagen':["dictionaries/*"]},
+      package_data={'lemmagen':["lib/data/*"]},
       license="GPLv2+",
       author="Jernej Virag",
       author_email="jernej@virag.si",
