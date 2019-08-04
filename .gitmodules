@@ -1,3 +1,3 @@
 [submodule "lemmagen/lib"]
 	path = lemmagen/lib
-	url = git@github.com:izacus/SlovenianLemmatizer.git
+	url = https://github.com/izacus/SlovenianLemmatizer.git
