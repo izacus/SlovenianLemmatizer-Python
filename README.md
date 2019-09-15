@@ -20,5 +20,5 @@ import lemmagen.lemmatizer
 from lemmagen.lemmatizer import Lemmatizer
 
 lemmatizer = Lemmatizer(dictionary=lemmagen.DICTIONARY_SLOVENE)
-print lemmatizer.lemmatize("hodimo")
+print(lemmatizer.lemmatize("hodimo"))
 ```
